@@ -18,14 +18,11 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
+      <div class="periodical"><em>{{ link.conference }}</em></div>
+
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
@@ -33,6 +30,21 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
+      {% if link.paper %} 
+      <a href="{{ link.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      
+      <!-- Link for abstract -->
+      {% if link.abstract %}
+      <a href="javascript:void(0);" class="btn btn-sm z-depth-0" onclick="toggleAbstract('{{ forloop.index }}')" style="font-size:12px;">Abstract</a>
+      <div id="abstract-{{ forloop.index }}" style="display:none; margin-top: 10px; font-size:12px;">
+        {{ link.abstract }}
+      </div>
+      {% endif %}
+
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
@@ -49,3 +61,14 @@
 
 </ol>
 </div>
+
+<script>
+function toggleAbstract(index) {
+  var abstractDiv = document.getElementById('abstract-' + index);
+  if (abstractDiv.style.display === 'none') {
+    abstractDiv.style.display = 'block';
+  } else {
+    abstractDiv.style.display = 'none';
+  }
+}
+</script>

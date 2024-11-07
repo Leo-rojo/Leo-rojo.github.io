@@ -1,0 +1,82 @@
+main:
+  - title: "In-Band Quality Notification from Users to ISPs"
+    image: "../assets/img/Youstall.png"
+    link: "https://github.com/Leo-rojo/IQN_YouStall_Code_CloudNet_2024"
+    description: "This is the codebase for the publication titled <i>In-Band Quality Notification from Users to ISPs</i>, 
+    presenting <i>Youstall</i>, a prototype mechanism that enables users to signal YouTube stall duration to ISPs along 
+    the server-client path. Users install this software to notify ISPs of QoE issues, enabling ISPs to improve connection quality without costly and often inefficient encrypted packet analysis.
+    The software includes a user agent that detects stalls on YouTube and triggers a specific packet pattern by interacting with the YouTube interface, and an ISP agent that detects this pattern 
+    for possible responsive action."
+
+  - title: "Quality of Experience in Video Streaming: Status Quo, Pitfalls, and Guidelines"
+    image: "../assets/img/QoE_pit.png"
+    link: "https://github.com/Leo-rojo/Quality_of_Experience_in_Video_Streaming_Status_Quo_Pitfalls_and_Guidelines"
+    description: "This is the codebase for the publication titled <i>Quality of Experience in Video Streaming: 
+    Status Quo, Pitfalls, and Guidelines</i>. Through an in-depth analysis of two large databases—Waterloo-IV<sup>1</sup> and 
+    iQoE<sup>2</sup>—as well as a comprehensive literature review, it identifies common pitfalls in QoE practices and models in 
+    video streaming. These issues are classified into test conduct, model building, and model application, with 
+    proposed solutions for improvement. This codebase specifically presents the database analyses."
+    reference_1_link: "https://ieee-dataport.org/open-access/waterloo-streaming-quality-experience-database-iv"
+    reference_2_link: "https://github.com/Leo-rojo/iQoE_Dataset_and_Code"
+
+  - title: "Empowerment of Atypical Viewers via Low-Effort Personalized Modeling of Video Streaming Quality"
+    image: "../assets/img/iqoe.png"
+    link: "https://github.com/Leo-rojo/iQoE_Dataset_and_Code"
+    description: "This codebase accompanies the publication <i>Empowerment of Atypical Viewers via Low-Effort Personalized Modeling of Video Streaming Quality</i>. It introduces <i>iQoE</i>, a novel method for building personalized 
+    QoE models by engaging individual users in a brief series of subjective assessments. The method leverages an active 
+    learning paradigm with the RIGS sampler and XSVR modeler. This codebase includes the code to replicate all analyses 
+    from the paper, the newly generated dataset, and the iQoE method itself."
+
+  - title: "This Website"
+    image: "../assets/img/website.png"
+    link: "https://github.com/Leo-rojo/Leo-rojo.github.io"
+    description: "This codebase includes the implementation for this portfolio showcase website. It uses the popular static site 
+    generator Jekyll and is built on the minimal-light theme<sup>1</sup>, which itself is based 
+    on the minimal template<sup>2</sup>."
+    reference_1_link: "https://github.com/yaoyao-liu/minimal-light"
+    reference_2_link: "https://github.com/orderedlist/minimal"
+
+  - title: "No One is a Group"
+    image: "../assets/img/no_group.png"
+    link: "https://github.com/Leo-rojo/Analysis-of-Waterloo-IV-QoE-dataset"
+    description: "This repository contains code for the analysis of the <i>Waterloo-IV database</i>, 
+    demonstrating how individual QoE (Quality of Experience) perception significantly differs 
+    from group QoE perception. Since QoE models in the literature are constructed based on 
+    group perception, the results of this analysis suggest that these models could greatly 
+    benefit from personalization. This analysis represents the preliminary stage for the 
+    publication <i>Empowerment of Atypical Viewers via Low-Effort Personalized Modeling of Video Streaming Quality</i>."
+
+#  - title: "LCEVC Codec for Uploading Time-Shifted Viewing Content"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "Comyco Reimplementation"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "Pensieve with Park Implementation"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "Mixed Tools"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "ABR switcher"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "ABR with Human Feedback"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."
+#
+#  - title: "Dashify Video"
+#    image: "../assets/img/Untitled 3.png"
+#    link: "http://example.com/project-two"
+#    description: "While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion."

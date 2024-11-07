@@ -1,8 +1,20 @@
 # Basic Information 
 title: Leonardo Peroni
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: leonardo.peroni92 (at) gmail.com
+working_position: Videostreaming researcher
+position: Ph.D. Student in Telematic Engineering
+affiliation: University Charles III of Madrid (UC3M)
+email_1: leonardo.peroni92@gmail.com
+email_2: 100455778@alumnos.uc3m.es
+
+#a Navigation bar
+navbar:
+  - title: "About"
+    url: "/about/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Projects"
+    url: "/projects/"
+
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -12,17 +24,17 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+google_scholar: https://scholar.google.com/citations?user=NHMNu0QAAAAJ&hl=en
+cv_link: ../assets/files/CV.pdf
+github_link: https://github.com/Leo-rojo
+linkedin: https://www.linkedin.com/in/leonardo-peroni
+# twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/Leonardo Peroni_2024_6.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ../assets/img/Leonardo Peroni_2024_6.jpg
+favicon: ../assets/img/favicon-32x32_light.png
+favicon_dark: ../assets/img/favicon-32x32_dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -44,14 +56,14 @@ google_analytics: UA-111540567-4
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
 
+include: ["_pages"]  # Include the _pages directory in the build
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - Thumbnails_original.odp
+  - Thumbnails_original.pptx
