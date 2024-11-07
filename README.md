@@ -1,185 +1,63 @@
-# The Minimal Light Theme
+# Portfolio Website
+This is the source code of my portfolio website. I built it based on \[[minimal-light-theme](https://minimal-light-theme.yliu.me/)\] 
+of [@Yaoyao Liu](https://github.com/yaoyao-liu), which, in turn, is based on [minimal](https://github.com/orderedlist/minimal).
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
-
-\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
- 
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
-<br>
-*Feel free to use and share the source code anywhere you like.*
-
-The latest version of my homepage is available here: [[link](https://github.com/yaoyao-liu/yaoyao-liu.github.io)]
-
-## Features
-
-- Simple and elegant personal homepage theme
-- Jekyll theme, automatically deployed by GitHub Pages
-- Basic search engine optimization
-- Mobile friendly
-- Supporting Markdown 
-- Supporting dark mode
+The website is based on Jekyll, a static site generator, and it is hosted on GitHub Pages.
 
 ## Project Architecture
 
 ```
 .
 ├── _data                    
-|   └── publications.yml                      # the YAML file for publications
+|   ├── publications.yml                      # the YAML file for publications
+|   └── projects.yml                          # the YAML file for projects
 ├── _includes                    
 |   ├── publications.md                       # the Markdown file for publications
-|   └── services.md                           # the Markdown file for services
+|   └── projects.md                           # the Markdown file for projects
 ├── _layouts                  
-|   └── homepage.html                         #  the html template for the homepage 
+|   └── homepage.html                         # the html template for the homepage 
 ├── _sass
-|   ├── minimal-light.scss                    #  this file will be compiled into a CSS file to control the style of the page              
-|   └── minimal-light-no-dark-mode.scss       #  this file is similar to minimal-light.scss with the dark mode disabled
-├── assets                                    #  some files
-├── html_source_file                          #  compiled HTML files
-├── .gitignore                                #  this file specifies intentionally untracked files that Git should ignore
-├── CNAME                                     #  the custom domain, will be used by GitHub page sevice
-├── Gemfile                                   #  a RubyGems related file
-├── LICENSE                                   #  the license file
-├── README.md                                 #  the readme file (English)
-├── README_de.md                              #  the readme file (German)
-├── README_zh_Hans.md                         #  the readme file (Simplified Chinese)
-├── README_zh_Hant.md                         #  the readme file (Traditional Chinese)
-├── _config.yml                               #  the Jekyll configuration file, including some options of the page  
-└── index.md                                  #  the content of the index page, using Markdown
+|   ├── minimal-light.scss                    # this file will be compiled into a CSS file to control the style of the page              
+|   └── minimal-light-no-dark-mode.scss       # this file is similar to minimal-light.scss with the dark mode disabled
+├── _pages                    
+|   ├── about.md                              # the Markdown file for about section
+|   ├── projects.md                           # the Markdown file for including _includes/projects.md
+    └── publications.md                       # the Markdown file for including _includes/publications.md
+├── _site                                     # compiled HTML files obtained through cmd 'bundle exec jekyll server'
+├── assets                                    # some files
+├── .gitignore                                # this file specifies intentionally untracked files that Git should ignore
+├── CNAME                                     # the custom domain, will be used by GitHub page sevice
+├── Gemfile                                   # a RubyGems related file
+├── README.md                                 # the readme file (English)
+├── _config.yml                               # the Jekyll configuration file, including some options of the page  
+└── index.md                                  # the content of the index page, using Markdown
 ```
 
-## Getting Started
+## Explanation of the Files
+In a Jekyll project, `.yml` files are used to store variables and data that can be accessed by the HTML files through 
+Liquid syntax, which allows for the insertion of dynamic content and the application of control logic. Here’s a breakdown of the key files and folders:
+- `_config.yml`: This is the main configuration file for the Jekyll project. It’s where you set options like the site’s title, base URL, theme, plugins, and other global settings.
+- `_data/`: This folder contains additional `.yml` files, such as:
+  - `publications.yml`: Stores information about publications, like titles, authors, and publication dates.
+  - `projects.yml`: Stores data about projects, such as project names, descriptions, and links. These data files are used to dynamically populate content on the site through Liquid syntax.
+- `_pages/`: This folder stores `.md` files that define content for individual pages:
+  - `about.md`: Contains the full content for the "About" page.
+  - `projects.md` and `publications.md`: These are placeholders that include content from `_includes/projects.md` and `_includes/publications.md` through Liquid syntax.
+- `_includes/`: Contains reusable content snippets in Markdown format, such as:
+  - `publications.md`: Displays publication data by pulling in data from `_data/publications.yml`.
+  - `projects.md`: Displays project data, similarly pulling in data from `_data/projects.yml`.
+- `_layouts/`: Stores the main layout templates in HTML. Here there’s one template:
+  - `homepage.html`: This layout template is applied to all the main pages, as specified in the front matter of the `.md` files in `_pages/`.
+- `index.md`: This is the homepage, which redirects directly to `about.md`. It is located at the root of the project, separate from `_pages`.
+- `_sass/`: Contains `.scss` files that are compiled into CSS, controlling the style of the site. Different .scss files can provide variations in themes (e.g., dark mode vs. light mode).
+- `assets/`: This folder holds static assets, such as CSS files, images, JavaScript files, and other resources referenced by the pages on the site.
 
-This template can be used in the following two ways: 
-- **Using with the GitHub Pages Service.** GitHub will provide you with a server to generate and host web pages.
-- **Using locally with Jekyll.** You may install Jekyll on your own computer and generate static web pages (i.e., HTML files) with this template. After that, you may upload the HTML files to your server.
-
-The detailed instructions are available below.
-
-
-### Using with the GitHub Pages Service
-
-There are two ways to use this template on GitHub:
-
-#### Fork this repository
-- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
-
-- Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-
-#### Using this repository as a remote theme
-To use this theme, add the following to your repository's `_config.yml`:
-
-```yaml
-remote_theme: yaoyao-liu/minimal-light
-```
-
-Please note that adding the above line will directly apply all the default settings in this repository to yours.
-
-If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
-
-### Using Locally with Jekyll
-
-First, install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/). The install instructions can be found here: <https://jekyllrb.com/docs/installation/#guides>
-
-Then, clone this repository:
-
-```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
-cd minimal-light
-```
-Install and run:
-
-```bash
-bundle install
-bundle add webrick
-bundle exec jekyll server
-```
-View the live page using `localhost`:
-<http://localhost:4000>. You can get the HTML files in `_site` folder.
-
-### Using the HTML version
-
-The compiled HTML files are available in the `html_source_file` folder. If you don't like Jekyll, you may directly edit and use the HTML version.
-
-## Customizing
-
-### Configuration variables
-
-The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
-
-  ```yaml
-# Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
-
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
-
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
-
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
-
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-  ```
-### Edit `index.md`
-
-Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
-
-### Edit included files
-
-There are two markdown files included in `index.md`. They are `_includes/publications.md` and `_includes/service.md`, respectively. These two files also support **Markdown** and **HTML** syntax. If you don't hope to include these two files, you may remove the following lines in `index.md`:
-https://github.com/yaoyao-liu/minimal-light/blob/b38070cd0b6bce45d8a885f3828549af8f82b7cb/index.md?plain=1#L21-L23
-
-If you hope to edit the publication list without changing the format, you may edit `_data/publications.yml`:
-https://github.com/yaoyao-liu/minimal-light/blob/77b1b3b31d4561091bcd739f37a2e1880e8b5ca5/_data/publications.yml#L3-L11
-
-
-### Stylesheet
-
-If you'd like to add your own custom styles, you may edit `_sass/minimal-light.scss`.
-
-### Layouts
-
-If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.html`.
-
-## License
-
-This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
-
-## Acknowledgements
-
-Our project uses the source code from the following repositories:
-
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
-
-* [al-folio](https://github.com/alshedivat/al-folio)
+## How to Run the Project
+1. Using GitHub Pages: GitHub Pages provides a server to host the website and automatically compiles the Jekyll project for you.
+2. Running Locally:
+   - Install Ruby and Jekyll on your local machine to compile and view the 
+   project locally. Running jekyll build will produce the compiled site in 
+   the `_site` folder, which can then be deployed to a server.
+   - Alternatively, use the command: `bundle exec jekyll server --livereload`  This will 
+   compile the project, serve it locally, and update automatically when you make changes, 
+   allowing you to see real-time updates.

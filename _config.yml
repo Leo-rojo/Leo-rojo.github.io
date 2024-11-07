@@ -62,8 +62,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENSE
   - minimal-light.gemspec
-  - html_source_file/
+  - _site/
   - Thumbnails_original.odp
   - Thumbnails_original.pptx
