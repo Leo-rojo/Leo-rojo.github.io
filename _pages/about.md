@@ -7,10 +7,10 @@ permalink: /about/
 ## About Me
 I am a final-year PhD student in Telematic Engineering at Universidad Carlos III de Madrid. 
 I am currently in the process of writing my dissertation and expect to complete it soon. 
-My research focuses on user empowerment in video streaming, particularly in HTTP Adaptive Streaming (HAS) 
-and the application of various machine learning methodologies. My main expertise lies in the distribution 
-stage of the streaming pipeline, with a particular emphasis on Quality of Experience (QoE), 
-Adaptive Bitrate (ABR) algorithms, and video compression.
+My research focuses on user empowerment and the application of machine learning methodologies 
+in video streaming, with a particular focus on HTTP Adaptive Streaming (HAS). 
+My primary expertise lies in the distribution phase of the streaming pipeline, 
+emphasizing Quality of Experience (QoE), Adaptive Bitrate (ABR) algorithms, and video compression.
 
 ## Working experience
 - **Research Assistant** at IMDEA Networks Institute, Madrid, Spain   
