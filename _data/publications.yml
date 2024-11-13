@@ -1,26 +1,26 @@
 main:
 
-  - title: In-Band Quality Notification from Users to ISPs
+  - title: "In-Band Quality Notification from Users to ISPs"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky, Farzad Tashtarian
     conference_short: CloudNet
-    conference: IEEE International Conference on Cloud Networking <strong>(CloudNet)</strong>, Rio de Janeiro, Brazil. November 2024.
+    conference: IEEE International Conference on Cloud Networking <strong>(CloudNet)</strong>. Rio de Janeiro, Brazil. November 2024.
     pdf: ../assets/files/IQN_IEEE_CloudNet_2024_author_version.pdf
     paper: https://dspace.networks.imdea.org/handle/20.500.12761/1867
     code: https://github.com/Leo-rojo/IQN_YouStall_Code_CloudNet_2024
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ../assets/img/Untitled 1.png
-    notes: Early accept
+    #notes: Early accept
     abstract: While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion. Compatible with multi-ISP paths, asymmetric routing, and other Internet realities, IQN does not require OTT support and induces the OTT server to emit distinctive packet patterns that encode QoE information, enabling ISPs to infer QoE by monitoring these patterns in network traffic. We develop a prototype system, YouStall, which applies IQN signaling to ISP-side inference of YouTube stalls. Cloud-based experiments with YouStall on YouTube Live streams validate IQN’s feasibility and effectiveness, demonstrating its potential for accurate user-assisted ISP-side QoE inference from encrypted traffic in real Internet environments.
 
   - title: "An End-to-End Pipeline Perspective on Video Streaming in Best-Effort Networks: A Survey and Tutorial"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
     conference_short: arXiv
-    conference: ArXiv:2403.05192, September 2024.
+    conference: ArXiv:2403.05192. September 2024.
     pdf: ../assets/files/2403.05192v2.pdf
     #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     paper: https://arxiv.org/abs/2403.05192
     bibtex: ../assets/files/bibtex_survey.bib
-    notes: Under revision in ACM Computing Surveys (CSUR)
+    notes: Under submission to a journal
     image: ../assets/img/Untitled 2.png
     abstract: Remaining a dominant force in Internet traffic, video streaming captivates end users, service providers, and researchers. This paper takes a pragmatic approach to reviewing recent advances in the field by focusing on the prevalent streaming paradigm that involves delivering long-form two-dimensional videos over the best-effort Internet with client-side adaptive bitrate (ABR) algorithms and assistance from content delivery networks (CDNs). To enhance accessibility, we supplement the survey with tutorial material. Unlike existing surveys that offer fragmented views, our work provides a holistic perspective on the entire end-to-end streaming pipeline, from video capture by a camera-equipped device to playback by the end user. Our novel perspective covers the ingestion, processing, and distribution stages of the pipeline and addresses key challenges such as video compression, upload, transcoding, ABR algorithms, CDN support, and quality of experience. We review over 200 papers and classify streaming designs by their problem-solving methodology, whether based on intuition (simple heuristics), theory (formal optimization), or machine learning (generalizable data patterns). The survey further refines these methodology-based categories and characterizes each design by additional traits such as compatible codecs and use of super resolution. We connect the reviewed research to real-world applications by discussing the practices of commercial streaming platforms. Finally, the survey highlights prominent current trends and outlines future directions in video streaming.
 
@@ -43,10 +43,12 @@ main:
     pdf: ../assets/files/Empowerment_of_Atypical_Viewers_via_Low-Effort_Personalized_Modeling_of_Video_Streaming_Quality_Proc_ACM_Netw_2023_accepted_version.pdf
     code: https://github.com/Leo-rojo/iQoE_Dataset_and_Code
     paper: https://dl.acm.org/doi/abs/10.1145/3629139
+    video: https://www.youtube.com/watch?v=p9Ja6NFGhuw
     bibtex: ../assets/files/bibtex_iqoe.bib
     image: ../assets/img/Untitled 3.png
     notes: Received ACM Artifact Badges for Availability, Functionality, and Reproducibility, and was one of three papers selected for presentation in the Artifacts session.
     abstract: Quality of Experience (QoE) and QoE models are of an increasing importance to networked systems. The traditional QoE modeling for video streaming applications builds a one-size-fits-all QoE model that underserves atypical viewers who perceive QoE differently. To address the problem of atypical viewers, this paper proposes iQoE (individualized QoE), a method that employs explicit, expressible, and actionable feedback from a viewer to construct a personalized QoE model for this viewer. The iterative iQoE design exercises active learning and combines a novel sampler with a modeler. The chief emphasis of our paper is on making iQoE sample-efficient and accurate. By leveraging the Microworkers crowdsourcing platform, we conduct studies with 120 subjects who provide 14,400 individual scores. According to the subjective studies, a session of about 22 minutes empowers a viewer to construct a personalized QoE model that, compared to the best of the 10 baseline models, delivers the average accuracy improvement of at least 42% for all viewers and at least 85% for the atypical viewers. The large-scale simulations based on a new technique of synthetic profiling expand the evaluation scope by exploring iQoE design choices, parameter sensitivity, and generalizability.
+    artifact: To check out the running implementation of iQoE or participate in the assessment, you can log in to the <a href="https://iqoe.itec.aau.at/">iQoE website</a> with username "anonym" and password "iQoE_92" A detailed description of the artifact can be found <a href="../assets/files/artifact.pdf">here</a>.
 
   - title: "Land cover and crop classification using multitemporal sentinel-2 images based on crops phenological cycle"
     authors: Aleem Khaliq, <strong>Leonardo Peroni</strong>, Marcello Chiaberge

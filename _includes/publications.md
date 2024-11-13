@@ -36,6 +36,10 @@
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
+      {% if link.video %} 
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      {% endif %}
+      
       
       <!-- Link for abstract -->
       {% if link.abstract %}
@@ -44,6 +48,15 @@
         {{ link.abstract }}
       </div>
       {% endif %}
+        
+      <!-- Link for artifact -->
+      {% if link.artifact %}
+      <a href="javascript:void(0);" class="btn btn-sm z-depth-0" onclick="toggleArtifact('{{ forloop.index }}')" style="font-size:12px;">Artifact</a>
+      <div id="artifact-{{ forloop.index }}" style="display:none; margin-top: 10px; font-size:12px;">
+        {{ link.artifact }}
+      </div>
+      {% endif %}
+
 
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -69,6 +82,14 @@ function toggleAbstract(index) {
     abstractDiv.style.display = 'block';
   } else {
     abstractDiv.style.display = 'none';
+  }
+}
+function toggleArtifact(index) {
+  var artifactDiv = document.getElementById('artifact-' + index);
+  if (artifactDiv.style.display === 'none') {
+    artifactDiv.style.display = 'block';
+  } else {
+    artifactDiv.style.display = 'none';
   }
 }
 </script>
