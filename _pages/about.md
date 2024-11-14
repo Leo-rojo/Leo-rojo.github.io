@@ -14,7 +14,7 @@ emphasizing Quality of Experience (QoE), Adaptive Bitrate (ABR) algorithms, and 
 
 ## Working experience
 - **Research Assistant** at IMDEA Networks Institute, Madrid, Spain   
-  Mar. 2020 – Sep. 2024 | Video streaming, QoE, ABR, ML, Encodings
+  Mar. 2020 – Aug. 2024 | Video streaming, QoE, ABR, ML, Encodings
 - **Technology Consultant** at Hesplora s.r.l., Florence, Italy  
   Sep. 2018 – Feb. 2020 | Data analysis, IoT, ML  
   
