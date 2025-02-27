@@ -20,7 +20,7 @@ emphasizing Quality of Experience (QoE), Adaptive Bitrate (ABR) algorithms, and 
 
 ## Education
 - **PhD in Telematic Engineering**, UC3M, Madrid, Spain  
-  Nov. 2020 – present | Thesis title: *User Empowerment in Adaptive Video Streaming over Best-Effort Networks*
+  Nov. 2020 – Feb. 2025 | Thesis title: *User Empowerment in Adaptive Video Streaming over Best-Effort Networks*
 - **MSc in Mechatronic Engineering**, Polytechnic University of Turin, Turin, Italy  
   Oct. 2015 – Apr. 2018 | Thesis title: *Machine learning framework for classification of mild cognitive impairment and high resolution
 multispectral-multitemporal satellite images*
