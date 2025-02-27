@@ -5,8 +5,7 @@ permalink: /about/
 ---
 
 ## About Me
-I am a final-year PhD student in Telematic Engineering at Universidad Carlos III de Madrid. 
-I am currently in the process of writing my dissertation and expect to complete it soon. 
+I have recently completed my Ph.D. in Telematic Engineering at Universidad Carlos III de Madrid.
 My research focuses on user empowerment and the application of machine learning methodologies 
 in video streaming, with a particular focus on HTTP Adaptive Streaming (HAS). 
 My primary expertise lies in the distribution phase of the streaming pipeline, 
@@ -21,7 +20,7 @@ emphasizing Quality of Experience (QoE), Adaptive Bitrate (ABR) algorithms, and 
 
 ## Education
 - **PhD in Telematic Engineering**, UC3M, Madrid, Spain  
-  Nov. 2020 – present | Provisional Thesis title: *User Empowerment in Adaptive Video Streaming over Best-Effort Networks*
+  Nov. 2020 – present | Thesis title: *User Empowerment in Adaptive Video Streaming over Best-Effort Networks*
 - **MSc in Mechatronic Engineering**, Polytechnic University of Turin, Turin, Italy  
   Oct. 2015 – Apr. 2018 | Thesis title: *Machine learning framework for classification of mild cognitive impairment and high resolution
 multispectral-multitemporal satellite images*
