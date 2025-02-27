@@ -15,7 +15,7 @@ main:
   - title: "An End-to-End Pipeline Perspective on Video Streaming in Best-Effort Networks: A Survey and Tutorial"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
     conference_short: arXiv
-    conference: ArXiv:2403.05192. September 2024.
+    conference: ArXiv:2403.05192. February 2025.
     pdf: ../assets/files/2403.05192v2.pdf
     #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     paper: https://arxiv.org/abs/2403.05192
