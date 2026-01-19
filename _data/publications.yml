@@ -1,5 +1,16 @@
 main:
-
+  - title: "An End-to-End Pipeline Perspective on Video Streaming in Best-Effort Networks: A Survey and Tutorial"
+      authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
+      conference_short: ACM CSUR
+      conference: ACM Computing Surveys (CSUR), 2025.
+      pdf: ../assets/files/2403.05192v2.pdf
+      #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+      paper: https://dl.acm.org/doi/10.1145/3742472
+      bibtex: ../assets/files/bibtex_survey.bib
+      image: ../assets/img/Untitled 2.png
+      abstract: Remaining a dominant force in Internet traffic, video streaming captivates end users, service providers, and researchers. This paper takes a pragmatic approach to reviewing recent advances in the field by focusing on the prevalent streaming paradigm that involves delivering long-form two-dimensional videos over the best-effort Internet with client-side adaptive bitrate (ABR) algorithms and assistance from content delivery networks (CDNs). To enhance accessibility, we supplement the survey with tutorial material. Unlike existing surveys that offer fragmented views, our work provides a holistic perspective on the entire end-to-end streaming pipeline, from video capture by a camera-equipped device to playback by the end user. Our novel perspective covers the ingestion, processing, and distribution stages of the pipeline and addresses key challenges such as video compression, upload, transcoding, ABR algorithms, CDN support, and quality of experience. We review over 200 papers and classify streaming designs by their problem-solving methodology, whether based on intuition (simple heuristics), theory (formal optimization), or machine learning (generalizable data patterns). The survey further refines these methodology-based categories and characterizes each design by additional traits such as compatible codecs and use of super resolution. We connect the reviewed research to real-world applications by discussing the practices of commercial streaming platforms. Finally, the survey highlights prominent current trends and outlines future directions in video streaming.
+  
+    
   - title: "In-Band Quality Notification from Users to ISPs"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky, Farzad Tashtarian
     conference_short: CloudNet
@@ -11,19 +22,7 @@ main:
     image: ../assets/img/Untitled 1.png
     #notes: Early accept
     abstract: While ISPs (Internet service providers) strive to improve QoE (quality of experience) for end users, end-to-end traffic encryption by OTT (over-the-top) providers undermines independent inference of QoE by an ISP. Due to the economic and technological complexity of the modern Internet, ISP-side QoE inference based on OTT assistance or out-of-band signaling sees low adoption. This paper presents IQN (in-band quality notification), a novel mechanism for signaling QoE impairments from an automated agent on the end-user device to the server-to-client ISP responsible for QoE-impairing congestion. Compatible with multi-ISP paths, asymmetric routing, and other Internet realities, IQN does not require OTT support and induces the OTT server to emit distinctive packet patterns that encode QoE information, enabling ISPs to infer QoE by monitoring these patterns in network traffic. We develop a prototype system, YouStall, which applies IQN signaling to ISP-side inference of YouTube stalls. Cloud-based experiments with YouStall on YouTube Live streams validate IQN’s feasibility and effectiveness, demonstrating its potential for accurate user-assisted ISP-side QoE inference from encrypted traffic in real Internet environments.
-
-  - title: "An End-to-End Pipeline Perspective on Video Streaming in Best-Effort Networks: A Survey and Tutorial"
-    authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
-    conference_short: arXiv
-    conference: ArXiv:2403.05192. February 2025.
-    pdf: ../assets/files/2403.05192v2.pdf
-    #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    paper: https://arxiv.org/abs/2403.05192
-    bibtex: ../assets/files/bibtex_survey.bib
-    notes: Under submission to a journal
-    image: ../assets/img/Untitled 2.png
-    abstract: Remaining a dominant force in Internet traffic, video streaming captivates end users, service providers, and researchers. This paper takes a pragmatic approach to reviewing recent advances in the field by focusing on the prevalent streaming paradigm that involves delivering long-form two-dimensional videos over the best-effort Internet with client-side adaptive bitrate (ABR) algorithms and assistance from content delivery networks (CDNs). To enhance accessibility, we supplement the survey with tutorial material. Unlike existing surveys that offer fragmented views, our work provides a holistic perspective on the entire end-to-end streaming pipeline, from video capture by a camera-equipped device to playback by the end user. Our novel perspective covers the ingestion, processing, and distribution stages of the pipeline and addresses key challenges such as video compression, upload, transcoding, ABR algorithms, CDN support, and quality of experience. We review over 200 papers and classify streaming designs by their problem-solving methodology, whether based on intuition (simple heuristics), theory (formal optimization), or machine learning (generalizable data patterns). The survey further refines these methodology-based categories and characterizes each design by additional traits such as compatible codecs and use of super resolution. We connect the reviewed research to real-world applications by discussing the practices of commercial streaming platforms. Finally, the survey highlights prominent current trends and outlines future directions in video streaming.
-
+  
   - title: "Quality of Experience in Video Streaming: Status Quo, Pitfalls, and Guidelines"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
     conference_short: COMSNETS
