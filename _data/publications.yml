@@ -2,7 +2,7 @@ main:
   - title: "An End-to-End Pipeline Perspective on Video Streaming in Best-Effort Networks: A Survey and Tutorial"
     authors: <strong>Leonardo Peroni</strong>, Sergey Gorinsky
     conference_short: ACM CSUR
-    conference: ACM Computing Surveys (CSUR), 2025.
+    conference: ACM Computing Surveys (CSUR), July 2025.
     pdf: ../assets/files/2403.05192v2.pdf
     #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     paper: https://dl.acm.org/doi/10.1145/3742472
