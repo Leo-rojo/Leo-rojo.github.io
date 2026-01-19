@@ -1,10 +1,11 @@
 # Basic Information 
 title: Leonardo Peroni
-working_position: Videostreaming & Data Science Researcher
+working_position: Senior AI/ML Engineer
 position: Ph.D. in Telematic Engineering
-affiliation: University Charles III of Madrid (UC3M)
+affiliation: Applied AI • Cyberdefence • End-to-End ML Systems
 email_1: leonardo.peroni92@gmail.com
-email_2: 100455778@alumnos.uc3m.es
+# email_2 removed to reduce noise
+
 
 #a Navigation bar
 navbar:
