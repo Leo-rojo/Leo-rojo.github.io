@@ -5,7 +5,6 @@ permalink: /about/
 ---
 
 ## About Me
-
 I am a Senior AI/ML Engineer with a Ph.D. in Telematic Engineering from Universidad Carlos III de Madrid. 
 I design and deploy end-to-end AI systems, working at the intersection of AI engineering and machine 
 learning engineering.
@@ -22,13 +21,10 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Experience
-
 - **Senior AI/ML Engineer**, Indra Sistemas – Cyberdefence  
   *Madrid, Spain | May 2025 – Present*
-
 - **Research Assistant**, IMDEA Networks Institute  
   *Madrid, Spain | Mar. 2020 – Aug. 2024*
-
 - **Technology Consultant**, Hesplora s.r.l.  
   *Florence, Italy | Sep. 2018 – Feb. 2020*
 
