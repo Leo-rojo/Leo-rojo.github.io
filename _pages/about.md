@@ -31,7 +31,6 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Education
-
 - **Ph.D. in Telematic Engineering**, Universidad Carlos III de Madrid  
 - **M.Sc. in Mechatronic Engineering**, Polytechnic University of Turin  
 - **B.Sc. in Informatics and Automatic Engineering**, Sapienza University of Rome
@@ -39,7 +38,6 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Focus Areas
-
 - End-to-end AI system design and deployment  
 - Machine learning, deep learning, and reinforcement learning  
 - Generative AI and LLM-based systems  
@@ -49,7 +47,6 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Current Interests
-
 I am currently interested in building and scaling end-to-end AI systems that combine learning-based models 
 with system-level decision-making. My focus is on applied AI in complex, security-critical environments, 
 with particular interest in reinforcement learning, generative models, and robust evaluation in production 
