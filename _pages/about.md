@@ -38,11 +38,14 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Focus Areas
-- End-to-end AI system design and deployment  
-- Machine learning, deep learning, and reinforcement learning  
-- Generative AI and LLM-based systems  
-- AI applied to security-critical and large-scale systems  
-- Data-driven optimization and experimentation
+- Deep reinforcement learning and control with neural architectures  
+  (PPO, DQN, A3C, SAC, multi-agent systems)
+- End-to-end AI system development, from model design and evaluation  
+  to deployment and monitoring
+- LLM–based systems, including prompting,
+  fine-tuning, tokenization, and retrieval-augmented generation
+- Hybrid AI systems combining learning-based decision-making with
+  structured reasoning and tool-based execution
   
 ---
 
