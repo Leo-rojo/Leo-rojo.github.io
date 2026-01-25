@@ -5,18 +5,11 @@ permalink: /about/
 ---
 
 ## About Me
-I am a Senior AI/ML Engineer with a Ph.D. in Telematic Engineering from Universidad Carlos III de Madrid. 
-I design and deploy end-to-end AI systems, working at the intersection of AI engineering and machine 
-learning engineering.
+I am a Senior AI/ML Engineer with a Ph.D. in Telematic Engineering from Universidad Carlos III de Madrid. I design and deploy end-to-end AI systems, operating across model-centric machine learning work and system-level AI engineering, from experimentation to production.
 
-My work spans multiple learning paradigms—including machine learning, deep learning, reinforcement 
-learning, and generative AI—and covers the full AI lifecycle, from data-driven modeling to production 
-deployment and monitoring. I am particularly interested in hybrid roles that combine system-level 
-thinking with hands-on modeling and experimentation.
+My work spans classical machine learning and deep learning, deep reinforcement learning, and LLM-based systems. I am particularly interested in hybrid roles where hands-on modeling and experimental prototyping are tightly coupled with robust productionization, including MLOps practices and reliable deployment pipelines.
 
-Previously, my background was in applied AI research for adaptive video streaming, where I worked on 
-Quality of Experience (QoE) modeling and reinforcement learning–based control. This experience continues 
-to inform how I approach building robust, measurable, and user-centric AI systems.
+Earlier in my career, I worked in applied AI research for adaptive video streaming, focusing on Quality of Experience (QoE) modeling, reinforcement learning–based adaptive bitrate (ABR) algorithms, video encoding, and transport-layer dynamics.
 
 ---
 
