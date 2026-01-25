@@ -38,19 +38,16 @@ to inform how I approach building robust, measurable, and user-centric AI system
 ---
 
 ## Focus Areas
-- Deep reinforcement learning and control with neural architectures  
-  (PPO, DQN, A3C, SAC, multi-agent systems)
-- End-to-end AI system development, from model design and evaluation  
-  to deployment and monitoring
-- LLM–based systems, including prompting,
+- Deep reinforcement learning and control with neural architectures,
+  including value-based, policy-gradient, and actor–critic methods,
+  as well as multi-agent systems
+- End-to-end AI system development, spanning model design,
+  training and evaluation, deployment, and operational monitoring
+- LLM-based systems, with focus on prompting and reasoning strategies,
   fine-tuning, tokenization, and retrieval-augmented generation
-- Hybrid AI systems combining learning-based decision-making with
-  structured reasoning and tool-based execution
+- Hybrid AI systems that combine learning-based decision-making with explicit reasoning and action execution
   
 ---
 
 ## Current Interests
-I am currently interested in building and scaling end-to-end AI systems that combine learning-based models 
-with system-level decision-making. My focus is on applied AI in complex, security-critical environments, 
-with particular interest in reinforcement learning, generative models, and robust evaluation in production 
-settings.
+I am currently focused on extending my deep reinforcement learning background toward LLM-based and agent-oriented AI systems. I am exploring how large language models, advanced prompting and reasoning techniques, and retrieval-augmented generation can support decision-making, planning, and adaptive behavior in complex environments.
